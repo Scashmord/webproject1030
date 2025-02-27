@@ -1,0 +1,59 @@
+/*
+blue: #9CAFB7
+orange: #F6CA83
+citron green: #D0D38F
+moss green: #949D6A
+sage: #ADB993
+*/
+
+body {
+    background-color: #daecf4;
+    padding: 0 24px 36px 24px;
+}
+
+a {
+    color: #949D6A;
+    font-weight:bold
+}
+
+a:hover {
+    color:#D0D38F
+}
+
+h1, h2 {
+    color: #8e5800;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.picture {
+    text-align: center;
+}
+
+p, li, table  {
+    font-size: 1.2em;
+}
+
+th, td {
+    /* border-color:#949D6A;
+    border-style:solid;
+    border-width: 2px; */
+    border: #949D6A solid 2px;
+    padding: 8px;
+}
+
+table {
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+/*
+for centered table
+block display
+specified width
+left and right margins must be equal - set both to auto
+*/

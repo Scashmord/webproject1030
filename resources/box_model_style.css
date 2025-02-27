@@ -1,0 +1,57 @@
+/*
+  white: #FFFFFF
+  dark orange: #B06318
+  dark green: #2F880B
+*/
+
+h1, h2, h3 {
+  color: #B06318;
+}
+h1 {
+  text-align:center;
+}
+th, td {
+  border:#2F880B;
+  border-style:dashed;
+  border-width: 2px;
+  padding: 8px
+}
+table {
+  border-collapse: collapse;
+}
+
+a {
+  color:#B06318;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#2F880B;
+}
+
+p.textcontent {
+  background-color: #B06318;
+  color:white;
+  width: 20em;
+  padding: 20px;
+  border-color: #2F880B;
+  border-style: groove;
+  border-width:20px;
+  margin: 60px;
+}
+
+div {
+  background-color:#B06318;
+  width:646px;
+  padding:20px;
+  border-style: double;
+  border-width: 20px;
+  border-color:#2F880B;
+  margin:60px;
+}
+
+body {
+padding:30px;
+font-size: 1.2em;
+}
