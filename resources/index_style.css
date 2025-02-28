@@ -1,0 +1,65 @@
+/*
+    dark gray:#121212
+    light blue: #e4fcff
+    text dark blue: #527074
+    darker blue:#486367
+    contrast orange: #985C2D
+*/
+
+a {
+    color:#2682EA
+}
+
+a:hover {
+    color:#7CB5EB
+}
+
+body {
+    background-color:#f0fbfd;
+    padding-left:30px;
+    padding-right:30px;
+}
+h1 {
+    text-align: center;
+    text-decoration:underline;
+}
+
+td, th {
+    text-align:center;
+    border-color:#3c686e;
+    border-style:solid;
+    border-width:2px;
+    padding: 2px 10px 2px 10px;
+
+}
+td {
+    color:#985C2D;
+    font-size: 1.2em;
+}
+
+th {
+    font-size: 1.3em;
+}
+
+th, h1, h2, h3 {
+    color:#486367;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+p {
+    color:#527074;
+    font-size:1.2em;
+}
+
+li {
+    color:#527074;
+    font-size:1.15em;
+}
+
+h2 {
+    font-weight:bold;
+    font-size:1.6em
+}
